@@ -1,0 +1,18 @@
+#print(dados)
+#print(dados.columns)
+#print(type(dados))
+#print(dados.info())
+#dataframe = tabela
+#função shape = para verificar a qauntidade de rows e columns é exibido numa tupla
+#função head = ver o inicio do dataframe
+#função tail = ver o final do dataframe
+
+Agrupamento de dados
+
+#dataframe.groupby('Column_example').mean(numeric_only='True')
+
+by:
+
+
+dropna() = remove a linha se tiver algum campo nulo
+fillna() = preenche campos nulos com valor especificado
